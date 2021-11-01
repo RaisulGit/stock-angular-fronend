@@ -1,0 +1,13 @@
+/* You can add global styles to this file, and also import other style files */
+html,
+body {
+    height: 100%;
+}
+
+.form-control.ng-touched.ng-invalid,
+.form-select.ng-touched.ng-invalid {
+    border-color: red;
+}
+.invalid-feedback {
+    display: block;
+}
